@@ -1,0 +1,1102 @@
+/* <---------- NAVBAR STYLING ---------->*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: lightgrey;
+	color: white;
+}
+
+.brand-title, .brand-title a {
+	color: black;
+	font-size: 1.5rem;
+	margin: .5rem
+}
+
+.navbar-links ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.navbar-links li {
+	list-style: none;
+}
+
+.navbar-links li button {
+	text-decoration: none;
+	color: black;
+	background-color: lightgrey;
+	padding: 1rem;
+	display: block;
+}
+
+.navimg {
+	height: 60px;
+	width: 60px;
+	margin-left: 27.5%;
+}
+
+.profilenavBtn {
+	border-radius: 45px; 
+	background-color: #5bc0de; 
+	color: white;
+}
+
+.logoutnavBtn {
+	border-radius: 45px; 
+	color: black;
+}
+
+.profLogin {
+	border-radius: 45px; 
+	background-color: black; 
+	color: white;
+}
+
+
+@media screen and (max-width: 786px) {
+
+	#textname {
+		display: none;
+	}
+	
+	.toggle-button {
+		display: flex;
+	}
+
+	.navbar-links {
+		/*display: none;*/
+	}
+
+	.brand-title {
+		margin-left: 43%;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.navimg {
+	margin-left: 0;
+	flex-direction: column;
+	align-items: flex-start;
+	}
+
+	.navbar-links li button {
+		margin: 0 auto;
+		margin-left: 130px;
+		vertical-align:middle;
+	}
+
+	.featuredBox1 {
+		display:block;
+		margin-left: 5px!important;
+	}
+
+	.second-section h5 {
+		width: 80%;
+	}
+
+	.profHomeBtn {
+		margin-left: 25%!important;
+	}
+
+	.infoBox1 {
+		display:block;
+		margin-left: 2%!important;
+		width: 400px!important;
+	}
+	.displaying-boxes h4 {
+		font-size: 15px;
+	}
+
+	.displaying-boxes button {
+		border-radius: 45px; 
+		margin-left: 30%!important;
+		margin-top: 10%;
+	}
+
+	.vl {
+		height: 80%!important;
+	}
+
+	#profbtn {
+		border-radius: 45px!important; 
+	    margin-left: 10%; 
+	    margin-top: 50%; 
+	    text-align: center;
+	    font-size: 20px!important; 
+	    border-width: 3px!important;
+	}
+
+	#customerbtn {
+		border-radius: 45px!important; 
+		margin-left: 67%; 
+		text-align: center;
+		margin-top: -15%!important;
+		font-size: 20px!important; 
+		border-width: 3px!important;
+	}
+
+	#profSignUpBtn {
+		border-radius: 45px!important; 
+	    margin-left: 5%; 
+	    margin-top: 30%; 
+	    text-align: center;
+	    font-size: 15px!important; 
+	    border-width: 3px!important;
+	}
+
+	.blur {
+		margin-top: 55.5%!important;
+		margin-left: 86%!important;
+	}
+
+	.professionalDes {
+		color: white;
+		width: 40%;
+		margin-top: 0px!important;
+		margin-left: 6%!important;
+	}
+	
+	.professionalDes2 {
+		color: white;
+		width: 40%;
+		margin-left: 6%!important;
+	}
+
+	.blur2{
+		margin-top: 55.5%!important;
+		margin-left: -82%!important;
+	}
+
+	#customerbtn {
+		font-size: 20px!important; 
+		margin-left: 60%; 
+	}
+
+	.search-bar {
+		margin-top: 15%;
+	}
+
+	.search-bar:hover .search_box {
+	width: 130px!important;
+	padding: 0 0px;
+	}
+
+	.c-search-bar {
+		margin-top: 10%;
+	}
+
+	.c-search-bar:hover .search_box {
+	width: 110px!important;
+	padding: 0 0px;
+	}
+
+	.jobBoxes2 {
+		margin-left: 2%!important;
+		height: 220px!important;
+		width: 400px!important;
+	}
+
+	.login-status {
+		margin-top: 25%;
+	}
+
+	.joblist {
+		display: block!important;
+		padding: 10px 10px!important;
+	}
+	#customerbtn1 {
+		border-radius: 45px!important; 
+	    margin-left: 60%; 
+	    margin-top: 15%; 
+	    text-align: center;
+	    font-size: 15px!important; 
+	    border-width: 3px!important;
+	}
+
+	.customerDes {
+		color: white;
+		width: 40%;
+		margin-top: 0px!important;
+		margin-left: 60%!important;
+	}
+
+	#sign-up {
+		margin-top: 0.1%!important;
+        font-size: 15px!important;
+        margin-left: 2%!important;
+    }
+
+    .profSubmitBtn {
+    	text-align: center;
+	    font-size: 11px!important; 
+	    margin-left: 0%!important;
+    }
+
+  	#csign {
+    	font-size: 14px!important;
+        margin-top: -60%!important;
+        margin-left: 54%!important;
+    }
+
+    .customerSubmitBtn {
+    	text-align: center;
+	    font-size: 11px!important; 
+	    margin-left: 46%!important;
+    }
+
+    .profSubmitBtn1 {
+    	text-align: center;
+	    font-size: 13px!important; 
+	    margin-left: 5%!important;
+    }
+
+    .professionalLoginBtn {
+    	margin-left: 0%!important;
+    }
+
+    .customerLoginBtn1 {
+    	margin-left: 50%!important;
+    	margin-top: -8.2%!important;
+    	font-size: 13px!important;
+    }
+
+    .log-in-form {
+        font-size: 15px!important;
+        margin-top: 10%!important;
+        margin-left: 2%!important;
+    }
+
+    .profLoginSubmitBtn {
+    	margin-left: 0%!important;
+    }
+
+    .customerlog-in-form {
+    	font-size: 14px!important;
+        margin-top: -60%!important;
+        margin-left: 54%!important;
+    }
+
+    #customerloginBtn {
+    	margin-left: 58%!important;
+    	margin-top: -17%!important;
+    	font-size: 20px!important;
+    	border-width: 3px!important;
+    }
+
+    .customerloginBtn1 {
+    	margin-left: 58%!important;
+    	margin-top: -17%!important;
+    	font-size: 20px!important;
+    	border-width: 3px!important;
+    }
+
+    .customerLoginSubmitBtn {
+    	margin-left: 50%!important;
+    }
+
+    .profileTitles {
+    	font-size: 13px!important;
+    	padding: 20px 30px!important;
+    }
+
+    .collapsibleInfoBox {
+	  width: 60%;
+	}
+    .collapsibleInfoBox:after {
+	  float: left!important;
+	  margin-left: 50%!important;
+	}
+
+	.collapseactive:after {
+	 float: left!important;
+	 margin-left: 50%!important;
+	}
+
+	.profileInfo {
+		width: 60%!important;
+	}
+
+	.timebox {
+		height: 400px!important;
+	}
+
+	.timebox2 {
+		height: 250px!important;
+	}
+
+	.featuredBox2 {
+		margin-left: 5px!important;
+	}
+
+	#postBtn {
+		margin-left: 40%!important;
+	}
+
+	.featuredBox4 {
+		margin-left: 15%!important;
+	}
+
+	.jobBoxes{
+		margin-left: 5px!important;
+		height: 200px!important;
+		width: 400px!important;
+	}
+
+	.modal1 {
+		padding: 0px!important;
+	}
+
+	.modal-content {
+		margin-left: 5px!important;
+		background-color: white!important;
+		width: 100%!important;
+		border: 2px solid black!important;
+  
+	}
+
+}
+
+
+
+/* <---------- HOMEPAGE STYLING ---------->*/
+.wrapper {
+	width:100%;
+}
+/*<--- Horiontal Line --->*/
+hr.topline {  
+	border-top: 1px solid #D3D3D3;
+	width: 100%;
+}
+
+/*<--- Logo in the Navbar --->*/
+.logoImg {
+	width:60px; 
+	position: absolute; 
+	left: 50%; 
+	margin-top: -30px;
+}
+
+/*<--- First box that displays featured Professionals --->*/
+.featuredBox1 {
+	display: inline-block;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border: 3px solid black;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 5px 10px 18px black;
+    margin-left: 50px;
+}
+
+.second-section h5 {
+	margin-left: 20px;
+	width: 40%;
+}
+
+.second-section button {
+	margin-left: 55%;
+	border-radius: 45px;
+}
+
+.second-section h5 .second-sectiontag {
+	margin-left: 500px;
+}
+
+.profHomeBtn {
+	border-radius: 45px!important; 
+	margin-left: 45%;
+}
+
+.customerHomeBtn {
+	border-radius: 45px!important; 
+}
+
+.displaying-boxes button {
+		border-radius: 45px; 
+		margin-left: 45%;
+		margin-top: 3%;
+	}
+/*<--- Centralising the Professional/Customer Logo when the buttons are clicked --->*/
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+/*<--- Centralise the icons used inside the information boxes--->*/
+.proicons {
+	margin-top: -50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+/*<--- Resize all the images --->*/
+.iconImg {
+	width: 75px; 
+	height:75px;
+}
+
+/*<--- Class to not print a section --->*/
+.noPrint {
+	display: none;
+}
+
+/*<--- Class to print a section --->*/
+.yesPrint {
+	display: show;
+}
+
+/*<--- Displays the "Find what suits you" border --->*/
+.infoBox1 {
+	display: inline-block;
+	background-color: white;
+    width: 500px;
+    height: 250px;
+    border: 2px solid #72bcd4;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 475px;
+    box-shadow: 5px 10px 18px #72bcd4;
+}
+
+/* <-------------------- Login & Signup Page STYLING (Splitting the page in half) --------------------> */
+
+.vl {
+	position: fixed;
+	height: 88.3%;
+	left:51.5%;
+	bottom:0; margin:0;
+	border:none;
+	border-right:solid 3px white;
+	z-index:10;
+}
+
+
+/*<--- "Professional Sign up" Button --->*/
+.professionalSign {
+	border-radius: 45px!important; 
+    margin-left: 15%; 
+    margin-top: 20%; 
+    text-align: center;
+    font-size: 50px!important; 
+    border-width: 4px!important;
+}
+
+/*<--- "Customer Sign up" Button --->*/
+.customerSign{
+	border-radius: 45px!important; 
+	margin-left: 67%;
+	margin-top: -8.5%; 
+	font-size: 50px!important; 
+	border-width: 4px!important;
+}
+
+/*<--- First line of Description when the Professional Sign up button is clicked --->*/
+.professionalDes {
+	color: white;
+	margin-top: -10%;
+	margin-left: 12%;
+}
+
+/*<--- Second line of Description when the Professional Sign up button is clicked --->*/
+.professionalDes2 {
+	color: white;
+	margin-left: 5%;
+}
+
+/*<--- Professional Sign up button --->*/
+.proSignup {
+	border-radius: 45px!important; 
+	margin-left: 12%; 
+	margin-top: 5%;     
+	font-size: 40px!important; 
+	border-width: 3px!important;
+}
+
+/*<--- Blurring out the Customer Side --->*/
+.blur{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top: 10%;
+	margin-left: 379px;
+	transform: translate(-50%,-50%);
+	width:700px;
+	height: 800px;
+	-webkit-backdrop-filter: blur(10px);
+}
+
+/*<--- First line of Description when the Customer Sign up button is clicked --->*/
+.customerDes {
+	color: white;
+	margin-top: -10%;
+	margin-left: 62%;
+}
+
+/*<--- Customer Sign up button --->*/
+.customerSign1 {
+	border-radius: 45px!important; 
+	margin-left: 65%; 
+	margin-top: 4%;
+	font-size: 40px!important; 
+	border-width: 3px!important;
+}
+
+/*<--- Blurring out the Professional Side --->*/
+.blur2{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top: 10%;
+	margin-left: -330px;
+	transform: translate(-50%,-50%);
+	width:700px;
+	height: 800px;
+	-webkit-backdrop-filter: blur(10px);
+}
+
+.sign-up-form {
+        color: white;
+        font-size: 20px;
+        margin-top: -25%!important;
+        margin-left: 20%;
+    }
+
+.profSubmitBtn {
+	border-radius: 45px!important; 
+	margin-left: 5%; 
+	margin-top: 1%;
+	font-size: 18px!important; 
+	border-width: 3px!important;
+}
+
+.profSubmitBtn1 {
+	border-radius: 45px!important; 
+	margin-left: 6%; 
+	margin-top: 1%;
+	font-size: 18px; 
+	border-width: 3px!important;
+}
+
+
+.customersign-up-form {
+        color: white;
+        font-size: 20px;
+        margin-top: -27%!important;
+        margin-left: 68%;
+    }
+
+.customerSubmitBtn {
+	border-radius: 45px!important; 
+	margin-left: 18%; 
+	margin-top: 1%;
+	font-size: 18px!important; 
+	border-width: 3px!important;
+}
+
+
+
+
+
+/*<--- "Professional Log in" Button --->*/
+.professionalLoginBtn {
+	border-radius: 45px!important; 
+    margin-left: 10%; 
+    margin-top: 20%; 
+    font-size: 50px!important; 
+    border-width: 4px!important;
+}
+
+/*<--- "Customer Log in" Button --->*/
+.customerLoginBtn{
+	border-radius: 45px!important; 
+	margin-left: 62%;
+	margin-top: -8.5%; 
+	font-size: 50px!important; 
+	border-width: 4px!important;
+}
+
+.customerLoginBtn1 {
+	border-radius: 45px!important; 
+	margin-left: 62%;
+	margin-top: -8.5%; 
+	font-size: 50px!important; 
+	border-width: 4px!important;
+}
+
+.profLoginSubmitBtn {
+	border-radius: 45px!important; 
+	margin-left: 5%; 
+	margin-top: 1%;
+	font-size: 18px!important; 
+	border-width: 3px!important;
+}
+
+.log-in-form {
+    color: white;
+    font-size: 20px;
+    margin-top: 12%;
+    margin-left: 20%;
+}
+
+.customerlog-in-form {
+	color: white;
+    font-size: 20px;
+    margin-top: 12%!important;
+    margin-left: 68%;
+}
+
+.customerLoginSubmitBtn {
+	border-radius: 45px!important; 
+	margin-left: 18%; 
+	margin-top: 1%;
+	font-size: 18px!important; 
+	border-width: 3px!important;
+}
+
+
+.Profsignuperror {
+	color: red!important;
+    font-size: 20px!important;
+    margin-top: -12%!important;
+    margin-left: 20%!important;
+}
+
+
+/*<---  --->*/
+.profSignedHeading {
+	color: white;
+	font-size: 40px;
+	margin-top: 15%;
+	margin-left: 5%;
+}
+
+.customerSignedHeading {
+	color: white;
+	font-size: 40px;
+	margin-top: 15%;
+	margin-left: 58%;
+}
+
+.profilebutton {
+	border-radius: 45px!important;
+	margin-left: -250%!important;
+}
+
+
+.profileTitles {
+	display: inline-block;
+	/*padding: 20px 150px;*/
+	padding: 20px 140px;
+}
+
+
+.profileImg {
+	width: 100%;
+	height: 50%;
+}
+
+.onlineLinks {
+	display: inline-block;
+	padding: 20px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  border: 4px solid black;
+  width: 50%!important;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.form-container {
+	margin-left: 35%;
+}
+
+.featuredBox2 {
+	display: block;
+	border: 2px solid;
+	padding: 10px;
+	height: 400px;
+	width: 400px;
+	box-shadow: 5px 10px 18px black;
+	margin-left: 100px;
+}
+
+.featuredBoxIndex {
+	display: block;
+	border: 2px solid;
+	padding: 10px;
+	height: 300px;
+	width: 400px;
+	box-shadow: 5px 10px 18px black;
+	margin-left: 100px;
+}
+
+.featuredBox3 {
+	display: inline-block;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 100px;
+}
+
+.featuredBox4 {
+	display: inline-block;
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 10px 18px black;
+    margin-left: 100px;
+}
+
+
+.centerBtns {
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.centeralisefields {
+	margin-left: 30%;
+	margin-top: 5%;
+}
+
+
+/* The Modal (background) */
+.modal1 {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+/*<------------- Professional Search Bar ------------>*/
+.search-bar {
+	position: absolute;
+	top: 25%;
+	left: 48.5%;
+	transform: translate(-50%,-50%);
+	background: lightgrey;
+	height: 70px;
+	border-radius: 40px;
+	padding: 15px;
+}
+
+.search-bar:hover .search_box {
+	width: 240px;
+	padding: 0 10px;
+}
+
+.search-bar:hover .searchBtn {
+	background: #5bc0de;
+	color: white;
+}
+
+.searchBtn {
+	color: #5bc0de;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: lightgrey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search_box {
+	border: none;
+	background: none;
+	float: left;
+	padding: 0;
+	color: black;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width:0px;
+
+}
+
+/*<------------- Professional Homepage ------------>*/
+.content {
+	margin-top: 12%;
+}
+
+/*<------------- Customer Homepage ------------>*/
+.content_index {
+	display: inline-block;
+	margin-top: 12%;	
+}
+
+.jobinfo {
+	display: inline-block;
+	padding: 10px 0px 0px 20px;
+}
+
+/*<------------- Customer Search Bar ------------>*/
+.c-search-bar {
+	position: absolute;
+	top: 30%;
+	left: 52%;
+	transform: translate(-50%,-50%);
+	background: lightgrey;
+	height: 70px;
+	border-radius: 40px;
+	padding: 15px;
+}
+
+.c-search-bar:hover .search_box {
+	width: 240px;
+	padding: 0 10px;
+}
+
+.c-search-bar:hover .searchBtn {
+	background: #5bc0de;
+	color: white;
+}
+
+
+.userbox {
+	display: inline-block;
+	border: 2px solid;
+	padding: 20px 20px;
+	height: 250px;
+	width: 350px;
+	box-shadow: 5px 10px 18px black;
+	margin-left: 100px;
+}
+
+
+/*<------------- All Jobs ------------>*/
+
+.jobBoxes {
+	display: block;
+	background-color: white;
+	width: 800px;
+	height: 60px;
+	border: 3px solid black;
+	margin-top: 2%;
+	/*padding: 50px;*/
+	box-shadow: 5px 10px 18px black;
+	margin-left: 20%;
+}
+
+.jobBoxes2 {
+	display: block;
+	background-color: white;
+	width: 1200px;
+	height: 60px;
+	border: 3px solid black;
+	/*padding: 50px;*/
+	margin: 20px;
+	box-shadow: 5px 10px 18px black;
+	margin-left: 10%;
+}
+
+.joblist {
+	display: inline-block;
+	padding: 10px 10px;
+}
+
+.jobsvl {
+	border-left: 3px solid black;
+	height: 55px;
+}
+
+.applicantspace {
+	display: inline-block;
+	padding: 5px 5px;
+}
+
+
+
+
+
+
+
+/* <-------------- Update Profile Page ---------->*/
+
+/* The style of the section when the page loads*/
+.collapsibleInfoBox {
+	content: "\002B";
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: 2px solid #5bc0de;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Style when the user hovers over the section */
+.collapsibleInfoBox:hover {
+	background-color: #5bc0de;
+}
+
+/* Style that adds the plus icon to the right side */
+.collapsibleInfoBox:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+/* Style when the user has clicked on the button */
+.collapseactive {
+	background-color: #5bc0de;
+	  color: black;
+	  cursor: pointer;
+	  padding: 18px;
+	  width: 50%;
+	  border: 2px solid #5bc0de;
+	  text-align: center;
+	  outline: none;
+	  font-size: 15px;
+}
+
+/* Style that adds the minus icon to the right side */
+.collapseactive:after {
+	content: "\2212";
+	color: black;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+/* Collapsible content styling */
+.profileInfo {
+	color: black;
+	transition: max-height 0.5s ease-out;
+	width: 50%;
+	padding: 0 18px;
+	background-color: white;
+	border: 2px solid #5bc0de;
+}
+
+
+#addBtn {
+	color: #5bc0de;
+	font-size: 50px;
+	border: none;
+	background-color: white;
+}
+
+button.openBtn {
+	border-radius: 45px;
+}
+
+/*Professional mBooking Page*/
+.timebox {
+	display: block;
+	background-color: white;
+	width: 400px;
+	height: 250px;
+	border: 3px solid green;
+	margin-top: 2%;
+	box-shadow: 5px 10px 18px green;
+}
+
+
+.timebox2 {
+	display: block;
+	background-color: white;
+	width: 200px;
+	height: 210px;
+	border: 3px solid black;
+	margin-top: 2%;
+	/*padding: 50px;*/
+	box-shadow: 5px 10px 18px black;
+}
+
+#deleteBtn {
+	color:red!important; 
+	border-color: red!important; 
+	margin-top: 2%!important;
+}
+
+#deleteBtn:hover {
+	color: white!important;
+	background-color: red;
+}
+

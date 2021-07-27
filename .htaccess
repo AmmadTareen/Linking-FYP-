@@ -1,0 +1,22 @@
+# mod_rewrite starts here 
+
+RewriteEngine on
+
+# if the folder exists on the server then ot doesn't chnage anything and does not run the Rule!
+
+ReqriteCond %{REQUEST_FILENAME} !-d
+
+# Check for the file in the directory with .PHP extension 
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+# Showing the page that has the .php extension
+
+# Grabs the URL if the conditions above are true
+# and allow any and all characters in the URL
+
+# Letters in the URL can be upper or lower case, NC = Non-Case 
+
+# L means that all the rules above are applicable on this line, any further code in the bottom does not apply to this line
+
+RewriteRule ^(.*)$ $1.php [NC, L]
